@@ -1,0 +1,48 @@
+{
+  "name": "doudou-nongye-screen",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@types/node": "22.13.8",
+    "axios": "^1.8.1",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.5",
+    "pinia": "^2.3.1",
+    "swiper": "^11.2.5",
+    "three": "^0.124.0",
+    "unplugin-auto-import": "0.16.7",
+    "unplugin-vue-components": "0.25.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.5",
+    "@tsconfig/node22": "22.0.0",
+    "@types/three": "^0.174.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.4.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "less": "^4.2.2",
+    "moment": "^2.30.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.5.3",
+    "typescript": "5.7.3",
+    "vite": "^6.2.0",
+    "vite-plugin-vue-devtools": "7.7.2",
+    "vue-tsc": "^2.2.8"
+  }
+}
