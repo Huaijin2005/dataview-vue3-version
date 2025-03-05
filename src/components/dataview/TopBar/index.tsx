@@ -61,7 +61,7 @@ export default defineComponent({
       <div class="top-bar">
         <div class="left">
           {renderMenu([
-            { title: "页面 1", name: "Home" },
+            { title: "页面 1", name: "DataView" },
             { title: "页面 2", name: "ArtificialIntelligence" },
             { title: "页面 3", name: "AchievementAggregation" },
           ])}

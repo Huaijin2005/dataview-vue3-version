@@ -1,25 +1,25 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import App from "@/App.vue";
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
       name: "App",
       component: App,
-      redirect: "/Login",
+      redirect: "/DataView",
       children: [
         {
-          path: "/Home",
-          name: "Home",
+          path: "/DataView",
+          name: "DataView",
           component: () => import("@/views/dataview/Home"),
         },
-        {
-          path: "/Login",
-          name: "Login",
-          component: () => import("@/views/dataview/Login"),
-        },
+        // {
+        //   path: "/Login",
+        //   name: "Login",
+        //   component: () => import("@/views/dataview/Login"),
+        // },
         {
           path: "/VillageLevel",
           name: "VillageLevel",
