@@ -20,7 +20,7 @@ export default defineComponent({
     };
     const state = reactive<State>({});
 
-    onBeforeMount(async () => { });
+    onBeforeMount(async () => {});
 
     const onPreview = () => {
       state.mySwiper?.slidePrev();

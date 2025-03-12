@@ -60,8 +60,9 @@ export class WordCloud extends ThreeBase {
     that.data.forEach((item, idx) => {
       let text = item.name;
       if (text) {
-        const color = `rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255
-          })`;
+        const color = `rgb(${Math.random() * 255},${Math.random() * 255},${
+          Math.random() * 255
+        })`;
         const vector = new THREE.Vector3();
         const phi = Math.acos(
           THREE.MathUtils.lerp(-1, 1, idx / (that.data.length - 1)),

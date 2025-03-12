@@ -29,7 +29,7 @@ export default defineComponent(() => {
       /**
        * 当组件失效，watchEffect被主动停止或者副作用即将重新执行时，这个函数会执行
        */
-      onInvalidate(() => { });
+      onInvalidate(() => {});
     },
     {
       /**

@@ -238,7 +238,7 @@ export default defineComponent(() => {
 
   const getImageUrl = (name: string) => {
     return new URL(
-      `../../assets/village-level/qingyang/${name}`,
+      `/src/assets/village-level/qingyang/${name}`,
       import.meta.url,
     ).href;
   };
@@ -471,25 +471,6 @@ export default defineComponent(() => {
           <div class="dl-right">
             <Card title="领导视察" style="height: 29%;">
               {ProgressBarsPage()}
-              {/* <div class="lingdaoshicha">
-                <ElCarousel height="440px" arrow="never">
-                  {[
-                    new URL(`@/assets/operational-regulation/lingdao.png`, import.meta.url).href,
-                    new URL(`@/assets/operational-regulation/lingdao.png`, import.meta.url).href,
-                    new URL(`@/assets/operational-regulation/lingdao.png`, import.meta.url).href,
-                  ].map((url) => {
-                    return (
-                      <ElCarouselItem key={url}>
-                        <ElImage
-                          style="width: 100%; height: 100%"
-                          src={url}
-                          fit="fill"
-                        />
-                      </ElCarouselItem>
-                    )
-                  })}
-                </ElCarousel>
-              </div> */}
             </Card>
             <Card
               title="动环监控告警趋势"

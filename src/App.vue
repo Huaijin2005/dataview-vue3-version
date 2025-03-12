@@ -5,7 +5,7 @@ import DataView from "./DataView.vue";
 </script>
 
 <template>
-  <div id="app">
+  <div id="app" class="h-full">
     <data-view />
   </div>
 </template>

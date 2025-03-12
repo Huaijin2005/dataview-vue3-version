@@ -8,7 +8,10 @@ import {
 } from "vue";
 import axios from "axios";
 import { counter } from "@/views/dataview/counter";
-import { WordCloud, getRandLetterNum } from "@/views/dataview/OperationalRegulation/WordCloud/index.js";
+import {
+  WordCloud,
+  getRandLetterNum,
+} from "@/views/dataview/OperationalRegulation/WordCloud/index.js";
 import { wordList } from "@/views/dataview/OperationalRegulation/WordCloud/words.js";
 import dynamicJson from "./../data.json";
 
